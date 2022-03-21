@@ -1,9 +1,13 @@
+import java.util.Scanner;
 public class TabuadaFor {
     public static void main(String[] args){
         int idades[] = new int[11];
 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Digite o número");
+        int tabuada=sc.nextInt();
         for (int i=0; i< idades.length; i++){
-            idades[i]= i*10;
+            idades[i]= i*2;
         }
 
         for(int i: idades){
@@ -12,4 +16,4 @@ public class TabuadaFor {
     }
     
 }
-//Tabuada com For mais simples
+//Tabuada com For mais simples com usuario digitando o número
