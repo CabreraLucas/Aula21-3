@@ -12,3 +12,4 @@ public class TabuadaFor {
     }
     
 }
+//Tabuada com For mais simples
